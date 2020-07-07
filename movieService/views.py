@@ -4,6 +4,8 @@ from rest_framework import generics, mixins
 from .models import *
 from rest_framework.response import Response
 
+#
+
 
 class GenresList(generics.ListAPIView):
     queryset = Genres.objects.all()
